@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria Universo F4</title>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style-images.css">
+    <link rel="stylesheet" href="./css/style-search.css">
+    <link rel="stylesheet" href="./css/contenedor-frame.css">
+</head>
+<body>
+    <div class="container-search">
+        <a href="index.html">
+            <img src="./img/logo.svg" alt="Logo" class="logo">
+        </a>
+
+        <form action="">
+            <input type="text" id="search-input" placeholder="Buscar imágenes">
+            <button id="search-button">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+        </form>
+
+        <div class="menu"></div>
+    </div>
+    <div class="container-categories">
+        <div class="categories">
+            <a href="#"></a>
+        </div>
+        <div class="featured"></div>
+    </div>
+
+    <p id="text-search"></p>
+
+    <div id="contenedor-frame">
+        <button id="close" class="btn-close" onclick="closeDiv()"><i class="fa-solid fa-xmark close"></i></button>
+        <iframe id="container-html" src="./contenedor-img.html" frameborder="0"></iframe>    
+    </div>
+
+    <div class="search-results">
+        <!-- ............. -->
+    </div>
+
+    <button id="show-more-button">Ver más</button>
+
+    <script src="https://kit.fontawesome.com/e592da9494.js" crossorigin="anonymous"></script>
+    <!-- <script type="module" src="./js/images.js"></script>
+    <script type="module" src="./js/script.js"></script> -->
+    
+    <script src="./js/page-images.js"></script>
+    <script src="./js/api.js"></script>
+    <script src="./js/full-images.js"></script>
+    <script src="./js/images.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
